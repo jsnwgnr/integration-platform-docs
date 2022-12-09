@@ -2,8 +2,8 @@ title: Actian Integration Platform
 description: Actian Integration Platform
 logo: "/assets/images/Actian-Logo-2020-1.svg"
 
-baseurl: ""
-url: ""
+baseurl: "/integration-platform-docs/"
+url: "https://jsnwgnr.github.io"
 
 collections_dir: docs
 
