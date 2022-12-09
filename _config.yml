@@ -2,7 +2,7 @@ title: Actian Integration Platform
 description: Actian Integration Platform
 logo: "/assets/images/Actian-Logo-2020-1.svg"
 
-baseurl: "integration-platform-docs"
+baseurl: ""
 url: ""
 
 collections_dir: docs
