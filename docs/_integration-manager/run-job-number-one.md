@@ -1,13 +1,13 @@
 ---
 layout: default
-title: QuickStart - Cloud
-nav_order: 0
+title: Run Your First Job
+nav_order: 1
 ---
-# QuickStart - Cloud
+# Run Your First Job
 
-## Run Your First DJAR
-
-1. Navigate to [https://console.im.actiandatacloud.com/ui/](https://console.im.actiandatacloud.com/ui/) in your web browser.
+1. Navigate to the Integration Manager UI in your web browser:
+    * Local Machine: [http://localhost:8080/ui/](http://localhost:8080/ui/)
+	* Actian DataCloud: [https://console.im.actiandatacloud.com/ui/](https://console.im.actiandatacloud.com/ui/)
 2. On the login page, enter your Actian ID or Platform User credentials.
 3. IM opens on the Dashboard page, from here navigate to the Configurations tab.
 4. Click +Add.

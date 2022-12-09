@@ -6,7 +6,7 @@ nav_order: 5
 # Job Status Codes
 
 | Status           | Description                                                                                                                                                                      |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **SEQUENCED**    | Job has been sequenced for execution and will be queued in order relative to other jobs for this jobconfig.                                                                      |
 | **QUEUED**       | Job has been queued for execution by the next available worker.                                                                                                                  |
 | **CANCELLED**    | Job was cancelled prior to being acquired by a worker (during the WAITING or QUEUED state). No log file will be produced.                                                        |

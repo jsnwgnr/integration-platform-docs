@@ -12,7 +12,7 @@ From the Agents tab, you can:
 * View details about its remote location (hostname, ip address)
 
 | Status          | Description                                                                                            |
-| --------------- | ------------------------------------------------------------------------------------------------------ |
+| :-------------- | :----------------------------------------------------------------------------------------------------- |
 | Active/Inactive | This is controlled by Account Admin(s) and can be used to disable Agents for various reasons.          |
 | Online          | The Agent is online as of the last check-in time and is ready to receive jobs.                         |
 | Updating        | The Agent is currently processing an Update Command, such as Update Worker or Update Engine.           |

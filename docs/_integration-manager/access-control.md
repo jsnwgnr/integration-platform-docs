@@ -1,10 +1,10 @@
 ---
 layout: default
-title: User Administration
+title: Access Control
 nav_order: 200
 has_children: true
 ---
-# User Administration
+# Access Control
 
 Integration Manager has a secure, flexible, and extendable access management subsystem.
 

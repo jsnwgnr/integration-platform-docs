@@ -12,8 +12,9 @@ Main Application Configuration
 
 These properties are found in: shared\_data\_path\conf\application.properties
 
+| Property                            | Description                                                                                                                                                                                 | Default                         |
+| :---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------- |
 | sharedDataPath                      | Populated during installation. Do not modify.                                                                                                                                               | Determined at Installation                          |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | installPath                         | Populated during installation. Do not modify.                                                                                                                                               | Determined at Installation                          |
 | logging.level. com.actian.datacloud | This property can be added to enhance Agent-specific logging for debug purposes, for example, set to DEBUG.                                                                                 | INFO                                                |
 | agent.auth-server                   | Actian ID Service URL. Set for DataCloud and Avalanche production environments. Note: You must update this property for Private Cloud/Kubernetes hosted environments.                       | https://api.aop.aws. actiandatacloud.com            |
@@ -34,13 +35,13 @@ These properties are found in: shared\_data\_path\conf\application.properties
 
 These properties are found in: shared\_data\_path\conf\worker-application.properties:
 
-| Property    | Description                                                                                                                                                                              | Default Value |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| server.port | Populated during installation. Port used for Agent-to-Worker communication.If changed, you must also change worker.api. port in shared\_data\_path\conf\application.properties to match. | 6000          |
+| Property    | Description                                                                                                                                                                              | Default |
+| :---------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| server.port | Populated during installation. Port used for Agent-to-Worker communication.If changed, you must also change worker.api. port in shared\_data\_path\conf\application.properties to match. | 6000    |
 
 These properties are found in: shared\_data\_path\conf\worker-control.properties:
 
 | Property       | Description                                                               | Default Value              |
-| -------------- | ------------------------------------------------------------------------- | -------------------------- |
+| :------------- | :------------------------------------------------------------------------ | :------------------------- |
 | sharedDataPath | Populated during installation. Do not modify.                             | Determined at Installation |
 | server.port    | Populated during installation. Port used for Agent application container. | 6001                       |
