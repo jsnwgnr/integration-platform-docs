@@ -1,10 +1,12 @@
 ---
 layout: default
 title: Scriptable Agent Registration
-nav_order: 8
+nav_order: 11
 parent: Advanced Topics
 ---
 # Scriptable Agent Registration
+
+If you need to automate Agent configuration and registration tasks (i.e. direct user interaction with the Agent is not possible), you can use silent install and Scriptable Agent Registration.
 
 ## Prerequisite(s):
 
@@ -94,7 +96,5 @@ im.user-code=[user code]
 
 ## Step 4: Update the Agent
 
-Copy and paste connection info into /IntegrationAgent/conf/application.properties file. Make sure to delete/overwrite any existing im.\* values that may be present. Duplicate entries will yield inconsistent results.
-
-Start/restart Agent. It will now register itself.
-
+1. Copy and paste connection info into /IntegrationAgent/conf/application.properties file. Make sure to delete/overwrite any existing im.\* values that may be present. Duplicate entries will yield inconsistent results.
+2. Start/restart Agent. It will now register itself.
