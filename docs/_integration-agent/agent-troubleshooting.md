@@ -44,4 +44,15 @@ This typically means there is already an instance of the service running (or per
     * Agent: (programData)IntegrationAgent/conf/application.properties
 	* Worker: (programData)IntegrationAgent/conf/worker-application.properties
 
-{: .fs-6 .fw-300 }
+## Engine version not recognized 
+
+Engine version not recognized [NoSuchFileException] (processAgentLicensing) (register)
+
+This usually means you have one or more incorrect engine settings in your appication.properties file. Common engine-versioned properties to review are:
+```
+dataconnectVersion
+worker.engineJavaHome
+engine.localEngineInstallPath
+```
+
+This could also occur if you have manually overriden values in the cosmos.ini file.
