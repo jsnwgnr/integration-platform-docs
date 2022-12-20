@@ -5,15 +5,13 @@ logo: "/assets/images/Actian-Logo-2020-1.svg"
 baseurl: "/integration-platform-docs/"
 url: "https://jsnwgnr.github.io"
 
-collections_dir: docs
-
 collections:
   integration-manager:
     output: true
-    permalink: /docs/:collection/:path
+    permalink: /:collection/:path
   integration-agent:
     output: true
-    permalink: /docs/:collection/:path
+    permalink: /:collection/:path
     
 just_the_docs:
   collections:
